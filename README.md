@@ -21,7 +21,8 @@ Oculus Rift/S; Quest/2
 ### Visuals: 
 Screenshots (concept and experience), Video
 
-![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
+![02-Grobkonzept-lpizzato](https://user-images.githubusercontent.com/72389401/160811049-6292f8fd-1bb4-4b52-ab56-af7e617a01d4.png)
+![02-Grobkonzept-lpizzato2](https://user-images.githubusercontent.com/72389401/160811066-1ccf3d8d-b631-44de-bd39-414eb3550ea1.png)
 
 ### Third party material: 
 
@@ -29,4 +30,4 @@ For testing without a headset, use the XR Device Simulator (included in the xr i
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by lindixx
