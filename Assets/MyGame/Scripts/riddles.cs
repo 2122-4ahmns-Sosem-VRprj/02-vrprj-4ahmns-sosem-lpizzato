@@ -2,13 +2,7 @@ using UnityEngine;
 
 public class riddles : MonoBehaviour
 {
-    private void Start()
-    {
-        for (int z = 0; z < 10; z++)
-        {
-            Debug.Log(z);
-        }
-    }
+
 }
 
 // Riddle 1:
@@ -72,4 +66,13 @@ float answer;
 private void Start()
 {
     answer = numbers[0] + numbers[2] - numbers[1] + numbers[3];
+} */
+
+// Riddle 4:
+/* private void Start()
+{
+    for (int z = 0; z < 10; z++)
+    {
+        Debug.Log(z);
+    }
 } */
