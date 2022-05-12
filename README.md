@@ -61,8 +61,6 @@ Consolas: https://www.dafontfree.io/consolas-font/
 
 ## Software/Hardware Requirements:
 
-## Software/Hardware Requirements:
-
 Oculus hardware requirements  [https://support.oculus.com/248749509016567/](https://support.oculus.com/248749509016567/)  You need a VR headset in this case an Oculus Rift/Quest/Quest2
 
 Examples:  [https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples](https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples)
