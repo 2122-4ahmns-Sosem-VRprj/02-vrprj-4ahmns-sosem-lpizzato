@@ -57,12 +57,12 @@ public class checkpoints : MonoBehaviour
         }
     }
 
-    void CountingUp()
+    public void CountingUp()
     {
         number++;
     }
 
-    void Confirm()
+    public void Confirm()
     {
         countingUp.enabled = false;
     }
