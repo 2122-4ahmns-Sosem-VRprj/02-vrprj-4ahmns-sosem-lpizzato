@@ -12,10 +12,12 @@ public class eastereggs : MonoBehaviour
     public void ShowRiddle()
     {
         riddle.SetActive(true);
+        Debug.Log("Riddle active");
     }
 
     public void HideRiddle()
     {
         riddle.SetActive(false);
+        Debug.Log("Riddle inactive");
     }
 }
