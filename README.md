@@ -45,16 +45,17 @@ Den Weg von den Sound-Buttons bis zum Schloss muss man sich die Reihenfolge der 
 
 ## Assets
 Eastereggs: https://free3d.com/3d-model/egg-370117.html
+LeanTween: https://assetstore.unity.com/packages/tools/animation/leantween-3595
 
 ## Sounds
-– 2 Ostereier-Sounds, die ähnlich klingen: https://www.epidemicsound.com/sound-effects/search?term=ice%20bells ("Ice Cream Truck Bell 2" & "8", edited in Adobe Audition)
-– Ostereier-Öffnen Sound?
-– Atmo
-– leise Hintergrundmusik? (hört bei Buttons auf?)
-– Oster-Soundtheme, dass durch 4 geteilt wird (für die Buttons)
-– Checksound wenn Zahlen bei Checkpoints richtig eingegeben werden (?)
-– Zahlenschloss-Sounds (drehen, einrasten)
-– Tür-Öffnen & -Schließen Sound
+- 2 Ostereier-Sounds, die ähnlich klingen: https://www.epidemicsound.com/sound-effects/search?term=ice%20bells ("Ice Cream Truck Bell 2" & "8", edited in Adobe Audition)
+- Ostereier-Öffnen Sound?
+- Atmo
+- leise Hintergrundmusik? (hört bei Buttons auf?)
+- Oster-Soundtheme, dass durch 4 geteilt wird (für die Buttons)
+- Checksound wenn Zahlen bei Checkpoints richtig eingegeben werden (?)
+- Zahlenschloss-Sounds (drehen, einrasten)
+- Tür-Öffnen & -Schließen Sound
 
 ## Fonts
 Consolas: https://www.dafontfree.io/consolas-font/
