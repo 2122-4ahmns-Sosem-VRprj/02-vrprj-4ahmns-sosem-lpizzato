@@ -17,6 +17,8 @@ public class Hand : MonoBehaviour
 
     void OnButtonClick(Collider other, string countingUp, string confirm, string numberTag)
     {
+        if (GameObject.FindGameObjectWithTag(numberTag) == null) return;
+        // print(GameObject.FindGameObjectWithTag(numberTag));
         numberText = GameObject.FindGameObjectWithTag(numberTag).GetComponent<Text>();
         numberText.text = number.ToString();
 
@@ -32,8 +34,10 @@ public class Hand : MonoBehaviour
         if (other.gameObject.tag == confirm)
         {
             GameObject.FindGameObjectWithTag(countingUp).GetComponent<Renderer>().material = disabled;
+
             GameObject.FindGameObjectWithTag(countingUp).tag = "button";
             GameObject.FindGameObjectWithTag(confirm).tag = "button";
+            GameObject.FindGameObjectWithTag(numberTag).tag = "button";
             Debug.Log("disabled");
             number = 1;
         }

@@ -7,6 +7,9 @@ public class doors : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        LeanTween.move(gameObject, destination, time);
+        if (other.gameObject.tag == "Player")
+        {
+            LeanTween.move(gameObject, destination, time);
+        }
     }
 }
