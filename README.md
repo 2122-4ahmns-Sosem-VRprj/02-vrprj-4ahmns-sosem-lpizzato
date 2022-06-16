@@ -15,16 +15,11 @@ So besteht dieses VR Spiel aus 2 sehr unterschiedlichen Aufgaben, was es spannen
 ## Skizze
 ![Skizze](https://user-images.githubusercontent.com/72389401/168030256-a4b7e302-fdd3-48ff-9e17-3735498b3b8e.png)
 
-## Minigame 1: "Ostereier-Code-Rätsel"
+## Minigame: "Ostereier-Code-Rätsel"
 Im Labyrinth sind verschiedene bunte Ostereier verstreut. 4 davon haben leicht andere Sounds als der Rest, in ihnen verstecken sich 4 Rätsel, aus denen 4 Zahlen als Lösung hervorgehen.
 Findet man ein richtiges Osterei und öffnet es, befindet sich darin ein Programmierrätsel, z.B.: ein if-Statement, bei dem am Ende eine Zahl herauskommt. Angenommen diese Zahl ist “4” und das Osterei grün, muss man jetzt den grünen Checkpoint suchen und die Zahl 4 eingeben. Das kann man mit einem Button, wo die Zahlen 1-9 durchgeklickt und dann auch bestätigt werden können.
-Intern wird sobald ein Checkpoint bestätigt und auch richtig ist, diese Zahl auf einen Soundbutton von dem 2. Minigame geschrieben.
-
-## Minigame 2: "Sound-Buttons & Zahlenschloss"
-Zu Spielanfang sind keine Zahlen auf den Buttons vorhanden. Sie werden erst sichtbar, wenn bei den 4 Checkpoints im Labyrinth bei Minigame 1 die richtigen Zahlen eingegeben wurden.
-Die Sound-Buttons ergeben in der richtigen Reihenfolge gedrückt, zusammen eine Melodie. Sind nun schon die Zahlen auf den Buttons, ist die Reihenfolge, damit die Melodie entsteht auch die richtige Zahlenreihenfolge.
-Diese muss beim Zahlenschloss kurz vor der Ausgangstüre eingegeben werden.
-Den Weg von den Sound-Buttons bis zum Schloss muss man sich die Reihenfolge der Zahlen merken.
+Sind alle Zahlen bei allen Checkpoints richtig, öffnet sich die Ausgangstüre des Maze.
+Je länger man für das Spiel benötigt, desto mehr Hinweise treten auf den Wänden nach und nach auf.
 
 ## Arbeitsschritte
 1. Recherche: Ostereier öffnen, wie?
@@ -44,12 +39,12 @@ Den Weg von den Sound-Buttons bis zum Schloss muss man sich die Reihenfolge der 
 15. Feature: Random Rätsel- & Zahlenreihenfolge
 
 ## Assets
-Eastereggs: https://free3d.com/3d-model/egg-370117.html
-LeanTween: https://assetstore.unity.com/packages/tools/animation/leantween-3595
+Eastereggs: https://free3d.com/3d-model/egg-370117.html 
+LeanTween: https://assetstore.unity.com/packages/tools/animation/leantween-3595 
+8K Skybox Pack Free: https://assetstore.unity.com/packages/2d/textures-materials/sky/8k-skybox-pack-free-150926
 
 ## Sounds
 - 2 Ostereier-Sounds, die ähnlich klingen: https://www.epidemicsound.com/sound-effects/search?term=ice%20bells ("Ice Cream Truck Bell 2" & "8", edited in Adobe Audition)
-- Ostereier-Öffnen Sound?
 - Atmo
 - leise Hintergrundmusik? (hört bei Buttons auf?)
 - Oster-Soundtheme, dass durch 4 geteilt wird (für die Buttons)
