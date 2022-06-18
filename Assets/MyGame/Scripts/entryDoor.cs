@@ -1,15 +1,18 @@
 using UnityEngine;
 
-public class entryDoor : MonoBehaviour
+public class EntryDoor : MonoBehaviour
 {
     [SerializeField] Vector3 closed;
     [SerializeField] Vector3 opened;
     [SerializeField] float time;
     [SerializeField] float delayTime;
+
     public AudioSource backgroundSound;
+    public AudioSource entrySound;
 
     private void Start()
     {
+        backgroundSound.Pause();
         LeanTween.move(gameObject, opened, time).setDelay(delayTime);
     }
 
@@ -18,8 +21,8 @@ public class entryDoor : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
             LeanTween.move(gameObject, closed, time);
+            backgroundSound.Play();
+            entrySound.Pause();
         }
-
-        backgroundSound.Play();
     }
 }

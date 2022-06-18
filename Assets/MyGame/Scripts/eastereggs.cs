@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class eastereggs : MonoBehaviour
+public class Eastereggs : MonoBehaviour
 {
     [SerializeField] GameObject riddle;
 

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class riddles : MonoBehaviour
+public class Riddles : MonoBehaviour
 {
 
 }
@@ -60,18 +60,19 @@ private void Update()
 } */
 
 //Riddle 4:
-/* float[] numbers = new float[] { 2.3f, 5.2f, 7f, 3.7f };
-float answer;
+/*  float[] numbers = new float[] { 2.3f, 5.2f, 7f, 0.9f };
+    float answer;
 
-private void Start()
-{
-    answer = numbers[0] + numbers[2] - numbers[1] + numbers[3];
+    private void Start()
+    {
+        answer = numbers[0] + numbers[2] - numbers[1] + numbers[3];
+    }
 } */
 
-// Riddle 4:
+// Riddle 5:
 /* private void Start()
 {
-    for (int z = 0; z < 10; z++)
+    for (int z = 5; z < 10; z++)
     {
         Debug.Log(z);
     }
