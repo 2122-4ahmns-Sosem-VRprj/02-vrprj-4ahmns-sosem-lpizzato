@@ -6,17 +6,17 @@ public class Hand : MonoBehaviour
     Text numberText;
     public Material disabled;
     public int number = 1;
-    public int greenNumber, blueNumber, yellowNumber, purpleNumber;
+    ExitDoor exitDoorScript;
 
     private void OnTriggerEnter(Collider other)
     {
-        OnButtonClick(other, "CountingUp", "Confirm", "number", greenNumber);
-        OnButtonClick(other, "CountingUp1", "Confirm1", "number1", blueNumber);
-        OnButtonClick(other, "CountingUp2", "Confirm2", "number2", yellowNumber);
-        OnButtonClick(other, "CountingUp3", "Confirm3", "number3", purpleNumber);
+        OnButtonClick(other, "CountingUp", "Confirm", "number", exitDoorScript.greenNumber);
+        OnButtonClick(other, "CountingUp1", "Confirm1", "number1", exitDoorScript.blueNumber);
+        OnButtonClick(other, "CountingUp2", "Confirm2", "number2", exitDoorScript.yellowNumber);
+        OnButtonClick(other, "CountingUp3", "Confirm3", "number3", exitDoorScript.purpleNumber);
     }
 
-    void OnButtonClick(Collider other, string countingUp, string confirm, string numberTag, int finalNumber)
+    void OnButtonClick(Collider other, string countingUp, string confirm, string numberTag, int currentNumber)
     {
         if (GameObject.FindGameObjectWithTag(numberTag) == null) return;
         // print(GameObject.FindGameObjectWithTag(numberTag));
@@ -34,8 +34,9 @@ public class Hand : MonoBehaviour
 
         if (other.gameObject.tag == confirm)
         {
-            finalNumber = number;
-            print(finalNumber);
+            currentNumber = number;
+            print(currentNumber);
+
             GameObject.FindGameObjectWithTag(countingUp).GetComponent<Renderer>().material = disabled;
 
             GameObject.FindGameObjectWithTag(countingUp).tag = "button";

@@ -6,19 +6,19 @@ public class ExitDoor : MonoBehaviour
     [SerializeField] float time;
     EntryDoor entryDoorScript;
     [SerializeField] AudioClip winnerSound;
-    Hand handScript;
+    public int greenNumber, blueNumber, yellowNumber, purpleNumber;
 
     private void Start()
     {
         GetComponent<AudioSource>().playOnAwake = false;
         GetComponent<AudioSource>().clip = winnerSound;
 
-        if (handScript.greenNumber == 2 && handScript.blueNumber == 6 && handScript.yellowNumber == 8 && handScript.purpleNumber == 5)
+        if (greenNumber == 2 && blueNumber == 6 && yellowNumber == 8 && purpleNumber == 5)
         {
             LeanTween.move(gameObject, destination, time);
         }
 
-        if (handScript.greenNumber == 2)
+        if (greenNumber == 2)
         {
             LeanTween.move(gameObject, destination, time);
         }
